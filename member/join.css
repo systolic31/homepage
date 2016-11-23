@@ -1,0 +1,181 @@
+ body {
+            font-family: 'Alegreya Sans', sans-serif;
+        }
+
+        div {
+            margin: 0;
+            padding: 0;
+        }
+
+        #signup_wrap {
+            min-width: 350px;
+            max-width: 450px;
+            border: black solid 1px;
+            text-align: center;
+        }
+
+        .field_wrap {
+            width: 97%;
+            margin: 5px 0;
+            overflow: hidden;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        input[type=text].short {
+            border: #bfbdbd solid 1px;
+            border-radius: 5px;
+            padding: 8px 15px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type=text].long {
+            border: #bfbdbd solid 1px;
+            border-radius: 5px;
+            padding: 8px 15px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+ 	input[type=text].long1 {
+            border: #bfbdbd solid 1px;
+            border-radius: 5px;
+            margin-bottom:1px;
+            padding: 8px 15px;
+            width: 100%;
+            box-sizing: border-box;
+            float: left;
+            background-image:url('check.png');
+            background-repeat:no-repeat;
+            background-position: 98% -45px;
+            background-repeat: no-repeat;
+        }
+
+        input[type=text].long1.check {
+               background-position: 98% 4px;
+            }
+
+        input[type=text].id {
+            border: #bfbdbd solid 1px;
+            border-radius: 5px;
+            padding: 8px 15px;
+            width: 80%;
+            box-sizing: border-box;
+            float:left;
+        }
+
+        input[type=password].long {
+            border: #bfbdbd solid 1px;
+            border-radius: 5px;
+            padding: 8px 15px;
+            width: 100%;
+            box-sizing: border-box;
+            float:left;
+        }
+
+        input[type=text].phone {
+            border: #bfbdbd solid 1px;
+            border-radius: 5px;
+            padding: 8px 15px;
+            width: 31.3%;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        #div_firstname {
+            width: 49.4%;
+            float: left;
+        }
+
+        #div_lastname {
+            width: 49.5%;
+            float: right;
+        }
+
+        .label_field {
+            text-align: left;
+            padding-left: 2%;
+            margin-bottom: 0.5%;
+            font-size: 15px;
+        }
+
+        #label_firstname {
+            text-align: left;
+            padding-left: 2%;
+            margin-bottom: 0.5%;
+            text-align: left;
+            font-size: 15px;
+        }
+
+        .div_phone {
+            float: left;
+            width: 3%;
+            padding-top: 5px;
+            padding-bottom: 7px;
+        }
+
+        .text_left {
+            text-align: left;
+        }
+
+        .favarite_wrap {
+            margin-bottom: 10px;
+        }
+
+        #btn_join {
+            width: 100%;
+            height: 35px;
+        }
+
+        .checkbox_wrap {
+            float: left;
+            padding: 5px 5px;
+        }
+
+        .margin_bottom {
+            margin-bottom: 5px;
+        }
+
+        .margin-top {
+            margin-top: 15px;
+        }
+
+        .radio_wrap {
+            float: left;
+            margin-left: 3px;
+            margin-right: 10px;
+        }
+
+        .alert_forpass{
+            width:28%;
+            display:inline-block;
+            font-size:14px;
+            padding: 6px 0;
+            color:gray;
+        }
+
+        .optional{
+            font-size:12px; 
+            color:gray;
+        }
+
+        #div_btnidcheck{
+            border:gray solid 1px;
+            display:inline-block;
+            width:18%;           
+            border-radius:4px;  
+            padding:1.6% 0; 
+            cursor:pointer;
+        }
+
+	   #label_idcheck{
+            text-align:left;
+            padding:0 2%;
+            font-size:14px;
+            color:#0a90f5;
+        }
+
+        .red{
+            color:red;
+        }

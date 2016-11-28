@@ -22,4 +22,6 @@ $mysqli->close();
 header('Location: '.$url['root'].'write_done.php');
 exit();
 
+
+
 ?> 
